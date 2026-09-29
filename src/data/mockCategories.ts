@@ -1,0 +1,68 @@
+import { Category } from "@/types";
+
+export const mockCategories: Category[] = [
+  {
+    id: "cat-1",
+    slug: "sofas",
+    name: "Sofas",
+    description: "Deep-seated luxury sofas upholstered in textured bouclé and Belgian linen.",
+    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+    productCount: 4,
+  },
+  {
+    id: "cat-2",
+    slug: "chairs",
+    name: "Chairs",
+    description: "Ergonomic accent chairs and lounge seating crafted in solid walnut and oak.",
+    image: "https://images.unsplash.com/photo-1580481077195-c3a821a5060f?auto=format&fit=crop&w=1000&q=80",
+    productCount: 4,
+  },
+  {
+    id: "cat-3",
+    slug: "tables",
+    name: "Tables",
+    description: "Sculptural coffee tables, end tables, and desks crafted from live-edge timber.",
+    image: "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1000&q=80",
+    productCount: 4,
+  },
+  {
+    id: "cat-4",
+    slug: "beds",
+    name: "Beds",
+    description: "Low-profile Japanese and Scandinavian platform beds in solid plantation teak.",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80",
+    productCount: 3,
+  },
+  {
+    id: "cat-5",
+    slug: "dining",
+    name: "Dining",
+    description: "Generous family dining tables and matching benches finished with organic oils.",
+    image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1000&q=80",
+    productCount: 3,
+  },
+  {
+    id: "cat-6",
+    slug: "storage",
+    name: "Storage",
+    description: "Fluted credenzas, sideboards, and media consoles with cane detailing.",
+    image: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80",
+    productCount: 3,
+  },
+  {
+    id: "cat-7",
+    slug: "lighting",
+    name: "Lighting",
+    description: "Architectural floor lamps and brass pendant fixtures creating ambient warmth.",
+    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80",
+    productCount: 2,
+  },
+  {
+    id: "cat-8",
+    slug: "decor",
+    name: "Decor",
+    description: "Ceramic vessels, hand-knotted wool rugs, and architectural mirrors.",
+    image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1000&q=80",
+    productCount: 2,
+  },
+];

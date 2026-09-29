@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+    /* Warm Luxury Furniture Color System */
+    --color-canvas: #FAF8F5;
+    --color-surface: #FFFFFF;
+    --color-surface-subtle: #F4EFEB;
+    --color-sand: #EAE3D9;
+    --color-sand-dark: #D8CEBF;
+    
+    --color-walnut-900: #231710;
+    --color-walnut-800: #332218;
+    --color-walnut-700: #4A3326;
+    --color-walnut-600: #664736;
+    --color-walnut-500: #88624C;
+
+    --color-oak-600: #A27B5C;
+    --color-oak-500: #BE9A78;
+    --color-oak-400: #D8BA9B;
+    --color-oak-light: #EFE4D6;
+
+    --color-forest: #266E56;
+    --color-forest-dark: #1A4E3D;
+    --color-forest-light: #E4F0EC;
+
+    --color-charcoal-900: #191716;
+    --color-charcoal-700: #413D3A;
+    --color-charcoal-500: #736E69;
+    --color-charcoal-400: #9C9690;
+  }
+}
+
+/* Custom theme mapping for Tailwind v4 */
+@theme {
+  --color-canvas: #FAF8F5;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #F4EFEB;
+  --color-sand: #EAE3D9;
+  --color-sand-dark: #D8CEBF;
+  
+  --color-walnut-900: #231710;
+  --color-walnut-800: #332218;
+  --color-walnut-700: #4A3326;
+  --color-walnut-600: #664736;
+  --color-walnut-500: #88624C;
+
+  --color-oak-600: #A27B5C;
+  --color-oak-500: #BE9A78;
+  --color-oak-400: #D8BA9B;
+  --color-oak-light: #EFE4D6;
+
+  --color-forest: #266E56;
+  --color-forest-dark: #1A4E3D;
+  --color-forest-light: #E4F0EC;
+
+  --color-charcoal-900: #191716;
+  --color-charcoal-700: #413D3A;
+  --color-charcoal-500: #736E69;
+  --color-charcoal-400: #9C9690;
+
+  --font-serif: var(--font-heading), 'Playfair Display', Georgia, serif;
+  --font-sans: var(--font-sans), 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-charcoal-900);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Luxury Smooth Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFEB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CEBF;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A27B5C;
+}
+
+/* Selection Color */
+::selection {
+  background-color: #EFE4D6;
+  color: #231710;
+}
