@@ -29,7 +29,7 @@ export function Footer() {
           
           {/* Col 1: Brand & Craftsmanship */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="/" className="flex items-center gap-3">
+            <Link href="/home" className="flex items-center gap-3">
               <div className="relative w-10 h-10 rounded-full overflow-hidden border border-[#88624C] bg-[#FFFFFF] flex items-center justify-center">
                 <Image
                   src="/logo.png"

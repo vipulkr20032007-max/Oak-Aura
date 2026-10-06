@@ -48,9 +48,10 @@ export function Navbar() {
   }, [pathname]);
 
   const navLinks = [
-    { label: "Home", href: "/" },
+    { label: "Home", href: "/home" },
     { label: "Shop", href: "/shop" },
     { label: "Categories", href: "/categories" },
+    { label: "3D Showcase", href: "/" },
     { label: "About", href: "/about" },
     { label: "Reviews", href: "/reviews" },
     { label: "Contact", href: "/contact" },
@@ -111,7 +112,7 @@ export function Navbar() {
 
             {/* Brand Logo & Wordmark */}
             <div className="flex items-center">
-              <Link href="/" className="flex items-center gap-3 group">
+              <Link href="/home" className="flex items-center gap-3 group">
                 <div className="relative w-9 h-9 sm:w-11 sm:h-11 rounded-full overflow-hidden border border-[#D8CEBF] bg-[#FFFFFF] flex items-center justify-center shadow-xs">
                   <Image
                     src="/logo.png"

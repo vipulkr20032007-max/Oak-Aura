@@ -259,7 +259,9 @@ export default function ReviewsPage() {
                           {r.customerName}
                         </span>
                         {r.verifiedPurchase && (
-                          <CheckCircle2 className="w-4 h-4 text-[#266E56]" title="Verified Buyer" />
+                          <span title="Verified Buyer">
+                            <CheckCircle2 className="w-4 h-4 text-[#266E56]" />
+                          </span>
                         )}
                       </div>
                       <span className="text-xs text-[#88624C] block mt-0.5">

@@ -6,7 +6,7 @@ import { WhyChooseUs } from "@/components/home/WhyChooseUs";
 import { PromotionalBanner } from "@/components/home/PromotionalBanner";
 import { TestimonialsSection } from "@/components/home/TestimonialsSection";
 
-export default function HomePage() {
+export default function StoreHomePage() {
   return (
     <div className="flex flex-col min-h-screen">
       <HeroSection />

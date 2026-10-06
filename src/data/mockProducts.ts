@@ -342,6 +342,39 @@ export const mockProducts: Product[] = [
 
   // --- BEDS ---
   {
+    id: "prod-obsidian-bed",
+    slug: "the-obsidian-noir-bed",
+    name: "The Obsidian Noir Master Bed",
+    category: "Beds",
+    tagline: "Oversized channel-tufted black velvet with hand-brushed gold inlay.",
+    description: "Commanding architectural presence meets ultra-luxurious comfort. Featuring an oversized vertical channel-tufted black velvet headboard, high-end obsidian Egyptian cotton and silk bedding, sophisticated gold embroidery accents, and a low-profile bespoke cushioned foundation.",
+    price: 139999,
+    oldPrice: 159999,
+    rating: 5.0,
+    reviewCount: 48,
+    mainImage: "/frames/ezgif-frame-240.jpg",
+    images: [
+      "/frames/ezgif-frame-240.jpg",
+      "/frames/ezgif-frame-001.jpg",
+      "/frames/ezgif-frame-120.jpg",
+      "/frames/ezgif-frame-180.jpg"
+    ],
+    material: "White Oak",
+    secondaryMaterial: "Smoked Black Oak, 24K Gold Inlay & Obsidian Velvet",
+    colors: [
+      { name: "Obsidian Noir & Gold", hex: "#1A1A1A" },
+      { name: "Midnight Charcoal", hex: "#2C2C2E" }
+    ],
+    dimensions: { widthCm: 230, depthCm: 240, heightCm: 140, weightKg: 135 },
+    stock: 4,
+    sku: "VEL-BED-OBSIDIAN",
+    isFeatured: true,
+    isBestSeller: true,
+    isNewArrival: true,
+    warrantyYears: 15,
+    assemblyRequired: true,
+  },
+  {
     id: "prod-13",
     slug: "aria-platform-bed-frame",
     name: "Aria King Platform Bed Frame",

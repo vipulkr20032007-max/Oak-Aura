@@ -46,7 +46,9 @@ export function TestimonialsSection() {
                       {rev.customerName}
                     </span>
                     {rev.verifiedPurchase && (
-                      <CheckCircle2 className="w-3.5 h-3.5 text-[#266E56]" title="Verified Buyer" />
+                      <span title="Verified Buyer">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-[#266E56]" />
+                      </span>
                     )}
                   </div>
                   <span className="text-xs text-[#88624C] block mt-0.5">
